@@ -1,0 +1,191 @@
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fcfdf8;
+    
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+  color: #9f411b;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #da6f29;
+}
+
+#wrapper {
+  margin-top: 10px;
+}
+
+#home {
+  background:url(../images/forging_bnw.jpg) no-repeat;
+  min-height:475px;
+  position:relative;
+  background-position:center;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#home:hover {
+  background:url(../images/forging_color.jpg) no-repeat;
+  position:relative;
+  background-position:center;
+   -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.social > a > img {
+  margin-top: 5px;
+  width: 25px;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.social > a > img:hover {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#home > .header-content > .header-contact > .contact-info {
+  text-align: right;
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+}
+
+#home > .header-content > .header-contact > .social {
+  text-align: right;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+nav.affix {
+  margin-left: 50px;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav .list-group-item {
+  background-color: #9f411b;
+  color: #fff;
+}
+
+nav .list-group-item:hover {
+  opacity: .9;
+  background-color: #9f411b;
+  color: #fff;
+}
+
+nav .list-group > a:hover {
+  text-decoration: none;
+}
+
+nav.navbar {
+  display: none;
+}
+
+
+section {
+  margin-top: 20px;
+  padding: 5px 15px 5px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#projects a {
+  color: inherit;
+}
+
+#projects > .row:nth-child(even) {
+  background-color: #00628B;
+  color: #fff;
+}
+
+#projects > .row:nth-child(odd) {
+  background-color: #81A594;
+  color: #fff;
+}
+
+.screen-shot {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.screen-shot img {
+  max-width: 100%;
+  padding: 10px 10px 10px 10px;
+  background: #fff;
+  border-radius: 5px;
+  max-height: 300px;
+  margin-bottom: 10px;
+
+}
+
+#about {
+  background-color: #818181;
+}
+
+#contact {
+  background-color: #818181;
+}
+
+#contact .portrait img {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+@media (max-width: 992px) {
+  nav.affix {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  nav.affix {
+    display: none;
+  }
+
+  body {
+    margin-top: 50px;
+  }
+
+  nav.navbar {
+    display: block;
+  }
+
+  .screen-shot {
+    display: block;
+    margin-top: 0;
+    padding-top: 15px;
+  }
+}
+
+
