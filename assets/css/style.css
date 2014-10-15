@@ -57,18 +57,27 @@ a:hover {
     transition: all 1s ease;
 }
 
+#home a {
+  color: #fff;
+}
+
+#home a:hover {
+  text-decoration: none;
+  color: #da6f29;
+}
+
 .social > a > img {
   width: 25px;
 }
 
-.header-contact > 
+#home .social > a > img {
   margin-top: 5px;
   -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
-.header-contact > .social > a > img:hover {
+#home .social > a > img:hover {
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -122,8 +131,26 @@ section {
   border-radius: 5px;
 }
 
+#about {
+  background-color: #818181;
+}
+
+#about p {
+  color: #fff;
+}
+
+#projects span {
+  line-height: 45px;
+  font-size: 16px;
+
+}
+
 #projects a {
-  color: inherit;
+  color: #fff;
+}
+
+#projects a:hover {
+  color: #da6f29;
 }
 
 #projects > .row:nth-child(even) {
@@ -137,9 +164,11 @@ section {
 }
 
 .screen-shot {
-  display: inline-block;
   margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
+
 
 .screen-shot img {
   max-width: 100%;
@@ -151,13 +180,15 @@ section {
 
 }
 
-#about {
-  background-color: #818181;
-}
+
+
 
 #contact {
   background-color: #818181;
-  overflow-x: ;
+}
+
+#contact p {
+  color: #fff;
 }
 
 #contact .portrait img {
