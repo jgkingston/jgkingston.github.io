@@ -58,13 +58,17 @@ a:hover {
 }
 
 .social > a > img {
-  margin-top: 5px;
   width: 25px;
+}
+
+.header-contact > 
+  margin-top: 5px;
   -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.social > a > img:hover {
+
+.header-contact > .social > a > img:hover {
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -187,5 +191,34 @@ section {
     padding-top: 15px;
   }
 }
+
+/* ==========================================================================
+   Resume styles
+   ========================================================================== */
+
+#resume-head a > img:hover {
+  opacity: .5;
+}
+
+#nav {
+  padding-top: 20px;
+  
+}
+ 
+
+#resume-body p {
+  padding-left: 30px;
+}
+
+#resume-nav > .row > div {
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#resume-body .top-link {
+  font-size: 16px;
+}
+
 
 
