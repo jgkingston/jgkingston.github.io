@@ -127,7 +127,7 @@ nav.navbar {
 section {
   margin-top: 20px;
   padding: 5px 15px 5px 15px;
-  background-color: #fff;
+  background-color: #ccc;
   border-radius: 5px;
 }
 
@@ -139,10 +139,18 @@ section {
   color: #fff;
 }
 
+#projects h1 {
+  padding-bottom: 10px;
+}
+
 #projects span {
   line-height: 45px;
   font-size: 16px;
 
+}
+
+#projects .row:last-child {
+  border-radius: 0 0 5px 5px;
 }
 
 #projects a {
