@@ -121,7 +121,32 @@ nav .list-group > a:hover {
 
 nav.navbar {
   display: none;
+  border: none;
+  background-color: #fcfdf8;
 }
+
+nav.navbar .navblock {
+  background-color: #9f411b;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #fcfdf8;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav.navbar .navblock:hover {
+  opacity: 0.9;
+}
+
+.nav-image {
+  height: 40px;
+  width: 40px;
+}
+
+
+
 
 
 section {
@@ -218,7 +243,7 @@ section {
   }
 
   body {
-    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   nav.navbar {
