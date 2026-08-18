@@ -61,23 +61,26 @@ a:hover {
   color: #fff;
 }
 
-#home a:hover {
-  text-decoration: none;
+a:hover {
   color: #da6f29;
+}
+
+.social {
+  padding-bottom: 15px;
 }
 
 .social > a > img {
   width: 25px;
 }
 
-#home .social > a > img {
+.social > a > img {
   margin-top: 5px;
   -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
-#home .social > a > img:hover {
+.social > a > img:hover {
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -145,13 +148,9 @@ nav.navbar .navblock:hover {
   width: 40px;
 }
 
-
-
-
-
 section {
   margin-top: 20px;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px 15px 15px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -203,7 +202,6 @@ section {
   text-align: center;
 }
 
-
 .screen-shot img {
   max-width: 100%;
   padding: 10px 10px 10px 10px;
@@ -222,10 +220,9 @@ section {
   color: #fff;
 }
 
-#contact .portrait img {
+.portrait img {
   width: 100%;
-  border-radius: 50%;
-  max-width: 200px;
+  border-radius: 6px;
 }
 
 @media (max-width: 992px) {
@@ -254,7 +251,7 @@ section {
     padding-top: 15px;
   }
 
-  #contact .portrait img {
+  .portrait img {
     width: 100%;
     border-radius: 50%;
     max-width: 150px;
