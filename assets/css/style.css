@@ -183,15 +183,16 @@ section {
 }
 
 #projects a:hover {
-  color: #da6f29;
+  /* color: #da6f29; */
+  text-decoration: underline;
 }
 
-#projects > .row:nth-child(even) {
+#projects .row:nth-child(even) {
   background-color: #00628B;
   color: #fff;
 }
 
-#projects > .row:nth-child(odd) {
+#projects .row:nth-child(odd) {
   background-color: #81A594;
   color: #fff;
 }
@@ -212,9 +213,6 @@ section {
   margin-bottom: 10px;
 
 }
-
-
-
 
 #contact {
   background-color: #818181;
@@ -274,7 +272,6 @@ section {
 
 #nav {
   padding-top: 20px;
-  
 }
  
 
