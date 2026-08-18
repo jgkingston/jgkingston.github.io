@@ -19,6 +19,11 @@
   </head>
   <body>
     <div id="wrapper">
+      <nav class="affix">
+        <div class="list-group">
+          <a href="assets/JamieKingstonResume.pdf" class="list-group-item" download=""><div>Download PDF</div></a>
+        </div>
+      </nav>
       <div class="container-fluid">
         <div id="resume-head" class="row">
           <header class="text-center">
@@ -37,64 +42,90 @@
               <nav id="resume-nav" role="navigation">
                 <div class="row">
                   <div class="col-sm-3 col-xs-6">
-                    <a href="#skills">Skills</a>
+                    <a href="#dev-experience">Experience</a>
                   </div>
                   <div class="col-sm-3 col-xs-6">
-                    <a href="#dev-experience">Chops</a>
+                    <a href="#skills">Skills</a>
                   </div>
                   <div class="col-sm-3 col-xs-6">
                     <a href="#education">Education</a>
                   </div>
                   <div class="col-sm-3 col-xs-6">
-                    <a href="#prof-experience">Experience</a>
+                    <a href="#prof-experience">Archives</a>
                   </div>
                 </div> <!--end of .row -->
               </nav>
             </section>
-            <section id="skills">
-              <h2>Skills <span class="pull-right top-link"><a href="#resume-head">Top</a> </span> </h2>
-              <div class="row">
-                <div class="col-sm-4">
-                  <h4>JavaScript</h4>
-                  <ul>
-                    <li>React</li>
-                    <li>Relay</li>
-                    <li>Node</li>
-                    <li>Backbone</li>
-                    <li>Marionette</li>
-                  </ul>
-                </div>
-                <div class="col-sm-4">
-                  <h4>HTML/CSS</h4>
-                  <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>LESS</li>
-                    <li>Sass</li>
-                  </ul>
-                </div>
-                <div class="col-sm-4">
-                  <h4>Web services</h4>
-                  <ul>
-                    <li>GraphQL</li>
-                    <li>AJAX</li>
-                    <li>REST</li>
-                  </ul>
-                </div>
-              </div> <!--end of .row -->
+            <section>
+              <h2>Professional Summary</h2>
+              <p>Senior Software Engineer with 10+ years of experience building scalable SaaS applications using React, TypeScript, Node.js, and PostgreSQL. Recently focused on production AI systems, including RAG pipelines, LLM-powered copilots, semantic search, and workflow automation for Slack and Microsoft Teams.</p>
             </section>
             <section id="dev-experience">
               <h2>Development Experience<span class="pull-right top-link"><a href="#resume-head">Top</a> </span></h2>
-              <h4>Senior Interaction Engineer, Benefitfocus, Charleston, SC - 2016-present</h4>
-              <h5>Interaction Engineer, Benefitfocus, Charleston, SC - 2014-2016</h5>
+             
+              <h4>Senior Software Engineer, Wrangle, Durham, NC - 2022-2026</h4>
               <ul>
-                <li>Develop GraqhQL API server to handle multi-resource data requests and reduce client-server traffic</li>
-                <li>End-to-end responsive update of enrollment web-application in coordination with release of Benefitfocus mobile app</li>
-                <li>Test, research, write and review accessibility solutions for key pages in enrollment web-application</li>
-                <li>Design and develop client-side Javascript modules for administrative and consumer roles</li>
+                <li>AI-powered ticketing and workflow platform used by enterprise customers across Slack and Microsoft Teams</li>
+                <li>Designed and implemented production RAG pipelines powering AI copilots and ticket deflection using customer knowledge bases, embeddings, and semantic retrieval systems</li>
+                <li>Improved retrieval quality by replacing fixed-window chunking with hierarchical document segmentation that preserved heading context and improved relevance in retrieved results</li>
+                <li>Orchestrated migration from usage- to seat-based billing in Stripe leveraging prorations and scheduled downgrades</li>
+                <li>Integrated with enterprise systems including Zendesk, Jira Service Management (JSM), Notion, and Mailersend using OAuth-based authentication, building API routes and webhook event handlers to sync tickets and documents and enable email-to-ticket creation workflows</li>
               </ul>
+
+              <h4>Frontend Lead, Snthesis, Durham, NC - 2019-2022</h4>
+              <ul>
+                <li>Built core platform for a scientific data harmonization system, enabling researchers to model, ingest, and query heterogeneous experimental data through a dynamic knowledge graph</li>
+                <li>Developed schema- and ontology-driven interfaces allowing users to define and evolve custom data structures that map directly into a relational graph model</li>
+                <li>Implemented federated Apollo GraphQL architecture across multiple microservices, unifying distributed scientific data sources under a single query layer</li>
+                <li>Engineered a high-performance canvas-based data table capable of rendering and interacting with arbitrarily large, user-defined column schemas for complex scientific datasets</li>
+              </ul>
+
+              <h4>Senior Full-Stack Engineer, Ndustrial, Raleigh, NC - 2019</h4>
+              <ul>
+                <li>Built React/Redux-based facility energy management dashboard with Node.js backend services for industrial monitoring and analytics</li>
+                <li>Implemented Express middleware for standardized API request validation and data hydration across EMS services</li>
+              </ul>
+
+              <h4>Senior Software Engineer, Automated Insights, Durham, NC - 2017-2019</h4>
+              <ul>
+                <li>Led migration of flagship Wordsmith application from Angular to React</li>
+                <li>Standardized frontend tooling and development practices across repositories, including webpack configurations, linting rules, and test frameworks</li>
+                <li>Collaborated with designers to develop reusable component and theme-based design systems</li>
+              </ul>
+              
+              <h4>Senior Interaction Engineer / Interaction Engineer, Benefitfocus, Charleston, SC - 2014-2017</h4>
+              <ul>
+                <li>Built responsive, accessible benefit enrollment workflows enabling employees to enroll in and manage HSA contributions</li>
+                <li>Developed a GraphQL API layer over REST services to streamline client data access and reduce client-server traffic</li>
+                <li>Implemented ACA 1094-C compliance web form for employer reporting within a regulated benefits system </li>
+              </ul>
+              
               <h4>1st Place, SPARC Hackathon 4: Pirates of Silicon Harbor, Charleston, SC - 2014</h4>
               <p>Best in Show, Best Responsive Web Application</p>
+            </section>
+            <section id="skills">
+              <h2>Skills <span class="pull-right top-link"><a href="#resume-head">Top</a> </span> </h2>
+              <ul class="list-inline">
+                <li>Typescript</li>
+                <li>Node.js</li>
+                <li>React</li>
+                <li>Tailwind</li>
+                <li>Express</li>
+                <li>Next.js</li>
+                <li>Postgres</li>
+                <li>pgvector</li>
+                <li>BullMQ</li>
+                <li>Apollo GraphQL</li>
+                <li>OAuth</li>
+                <li>Jest</li>
+                <li>Storybook</li>
+                <li>Chromatic</li>
+                <li>Cypress</li>
+                <li>Puppeteer</li>
+                <li>Sentry</li>
+                <li>Solarwind</li>
+                <li>New Relic</li>
+              </ul>
             </section>
             <section id="education">
               <h2>Education<span class="pull-right top-link"><a href="#resume-head">Top</a> </span></h2>
@@ -146,7 +177,7 @@
         </div> <!--end of .row -->
       </div> <!--end of .container-fluid -->
       <div class="row">
-        <footer class="text-center">© 2017 Jamie Kingston</footer>
+        <footer class="text-center">© 2026 Jamie Kingston</footer>
       </div>
     </div> <!--end of #wrapper -->
   </body>

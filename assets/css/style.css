@@ -99,7 +99,6 @@ a:hover {
   right: 20px;
 }
 
-
 nav.affix {
   margin-left: 50px;
   -webkit-transition: all 0.3s ease;
@@ -157,10 +156,8 @@ section {
 
 #about {
   background-color: #818181;
-}
-
-#about p {
   color: #fff;
+
 }
 
 #projects h1 {
@@ -170,7 +167,6 @@ section {
 #projects span {
   line-height: 45px;
   font-size: 16px;
-
 }
 
 #projects .row:last-child {
@@ -209,14 +205,10 @@ section {
   border-radius: 5px;
   max-height: 300px;
   margin-bottom: 10px;
-
 }
 
 #contact {
   background-color: #818181;
-}
-
-#contact p {
   color: #fff;
 }
 
