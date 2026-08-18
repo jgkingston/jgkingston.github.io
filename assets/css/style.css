@@ -23,11 +23,11 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-a {
+#home a {
   color: #9f411b;
 }
 
-a:hover {
+#home a:hover {
   text-decoration: none;
   color: #da6f29;
 }
